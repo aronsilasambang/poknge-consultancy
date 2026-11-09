@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-label="Illustration of a professional workspace with a laptop showing a business document">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081C38"/>
+      <stop offset=".6" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#133A68"/>
+    </linearGradient>
+    <linearGradient id="wg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6DC98"/>
+      <stop offset="1" stop-color="#E2A92A"/>
+    </linearGradient>
+    <pattern id="wp" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 1 39 20 20 39 1 20Z" fill="none" stroke="#E2A92A" stroke-opacity=".09"/>
+    </pattern>
+    <filter id="ws" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#020814" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="560" height="440" fill="url(#wbg)"/>
+  <rect width="560" height="440" fill="url(#wp)"/>
+  <circle cx="470" cy="70" r="120" fill="#E2A92A" fill-opacity=".08"/>
+  <circle cx="470" cy="70" r="70" fill="none" stroke="#E2A92A" stroke-opacity=".25" stroke-dasharray="3 8"/>
+
+  <!-- desk -->
+  <rect x="30" y="352" width="500" height="10" rx="5" fill="#E2A92A" fill-opacity=".55"/>
+
+  <!-- binders -->
+  <g filter="url(#ws)">
+    <rect x="58" y="214" width="44" height="138" rx="6" fill="#1E4D85"/>
+    <rect x="66" y="236" width="28" height="36" rx="3" fill="#FFFFFF" fill-opacity=".85"/>
+    <circle cx="80" cy="318" r="6" fill="none" stroke="#FFFFFF" stroke-opacity=".6" stroke-width="2"/>
+    <rect x="106" y="236" width="40" height="116" rx="6" fill="url(#wg)"/>
+    <rect x="113" y="254" width="26" height="30" rx="3" fill="#0B2545" fill-opacity=".85"/>
+    <circle cx="126" cy="322" r="5.5" fill="none" stroke="#0B2545" stroke-opacity=".6" stroke-width="2"/>
+  </g>
+
+  <!-- laptop -->
+  <g filter="url(#ws)">
+    <rect x="166" y="112" width="250" height="172" rx="12" fill="#DCE2EB"/>
+    <rect x="177" y="123" width="228" height="150" rx="6" fill="#FFFFFF"/>
+    <rect x="177" y="123" width="228" height="34" rx="6" fill="#0B2545"/>
+    <rect x="177" y="145" width="228" height="12" fill="#0B2545"/>
+    <rect x="193" y="135" width="74" height="9" rx="4.5" fill="#ECBD4C"/>
+    <circle cx="388" cy="140" r="5" fill="#ECBD4C"/>
+    <circle cx="210" cy="190" r="16" fill="#FDF5E1" stroke="#E2A92A" stroke-width="2"/>
+    <circle cx="210" cy="185" r="5.5" fill="#E2A92A"/>
+    <path d="M200.5 199c2-4.4 5.4-6.6 9.5-6.6s7.5 2.2 9.5 6.6" fill="none" stroke="#E2A92A" stroke-width="2.4" stroke-linecap="round"/>
+    <rect x="236" y="179" width="104" height="9" rx="4.5" fill="#0B2545"/>
+    <rect x="236" y="195" width="70" height="7" rx="3.5" fill="#C3CCD9"/>
+    <rect x="193" y="220" width="196" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="193" y="233" width="176" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="193" y="246" width="186" height="6" rx="3" fill="#E1E6EE"/>
+    <path d="M140 284h302l-18 22H158z" fill="#C3CCD9"/>
+    <rect x="262" y="284" width="58" height="6" rx="3" fill="#A9B4C4"/>
+  </g>
+
+  <!-- notebook & pen -->
+  <g filter="url(#ws)">
+    <rect x="300" y="318" width="120" height="30" rx="5" fill="#FFFFFF"/>
+    <rect x="300" y="318" width="10" height="30" fill="#E2A92A"/>
+    <rect x="322" y="327" width="70" height="4" rx="2" fill="#DDE3EC"/>
+    <rect x="322" y="336" width="54" height="4" rx="2" fill="#DDE3EC"/>
+    <rect x="352" y="308" width="92" height="7" rx="3.5" fill="#ECBD4C" transform="rotate(-8 398 311)"/>
+  </g>
+
+  <!-- coffee cup -->
+  <g filter="url(#ws)">
+    <path d="M452 300h44l-5 52h-34z" fill="#FFFFFF"/>
+    <path d="M496 310c12 0 14 18 0 20" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+    <rect x="452" y="300" width="44" height="8" fill="#E2A92A"/>
+  </g>
+  <path d="M466 286c-6-8 6-12 0-20M482 286c-6-8 6-12 0-20" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- floating document with check -->
+  <g filter="url(#ws)" transform="rotate(8 470 170)">
+    <rect x="430" y="118" width="86" height="108" rx="10" fill="#FFFFFF"/>
+    <rect x="444" y="134" width="44" height="7" rx="3.5" fill="#0B2545"/>
+    <rect x="444" y="150" width="58" height="5" rx="2.5" fill="#DDE3EC"/>
+    <rect x="444" y="161" width="50" height="5" rx="2.5" fill="#DDE3EC"/>
+    <rect x="444" y="172" width="56" height="5" rx="2.5" fill="#DDE3EC"/>
+    <circle cx="496" cy="206" r="14" fill="url(#wg)"/>
+    <path d="M490 206.5l4 4 7-7.5" fill="none" stroke="#0B2545" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

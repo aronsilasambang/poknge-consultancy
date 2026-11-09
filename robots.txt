@@ -1,0 +1,5 @@
+# Allow all search engines to index this website
+User-agent: *
+Allow: /
+
+Sitemap: https://aronsilasambang.github.io/poknge-consultancy/sitemap.xml

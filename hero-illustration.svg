@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" role="img" aria-label="Illustration of professional business documents, a business plan chart and a completed checklist">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6DC98"/>
+      <stop offset="1" stop-color="#E2A92A"/>
+    </linearGradient>
+    <filter id="hs" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020814" flood-opacity=".45"/>
+    </filter>
+  </defs>
+
+  <!-- background rings -->
+  <circle cx="290" cy="262" r="222" fill="#E2A92A" fill-opacity=".06"/>
+  <circle cx="290" cy="262" r="166" fill="none" stroke="#E2A92A" stroke-opacity=".3" stroke-dasharray="3 9"/>
+
+  <!-- Certificate (back card) -->
+  <g transform="rotate(-7 165 220)" filter="url(#hs)">
+    <rect x="40" y="50" width="250" height="340" rx="18" fill="#FFFFFF"/>
+    <path d="M40 68a18 18 0 0 1 18-18h214a18 18 0 0 1 18 18v52H40z" fill="#0B2545"/>
+    <rect x="64" y="74" width="118" height="11" rx="5.5" fill="#ECBD4C"/>
+    <rect x="64" y="94" width="78" height="7" rx="3.5" fill="#FFFFFF" fill-opacity=".45"/>
+    <rect x="64" y="146" width="200" height="8" rx="4" fill="#DDE3EC"/>
+    <rect x="64" y="164" width="176" height="8" rx="4" fill="#DDE3EC"/>
+    <rect x="64" y="182" width="188" height="8" rx="4" fill="#DDE3EC"/>
+    <rect x="64" y="214" width="130" height="8" rx="4" fill="#DDE3EC"/>
+    <rect x="64" y="232" width="160" height="8" rx="4" fill="#DDE3EC"/>
+    <path d="M70 334c9-15 17-15 21-5s9 9 15-1 12-7 18 2" fill="none" stroke="#1E4D85" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="64" y="344" width="96" height="2" fill="#AAB4C3"/>
+    <!-- seal -->
+    <path d="M90 282l-9 30 12-7 9 11 5-30z" fill="#C18C16"/>
+    <path d="M114 282l9 30-12-7-9 11-5-30z" fill="#E2A92A"/>
+    <circle cx="102" cy="272" r="24" fill="url(#hg)"/>
+    <circle cx="102" cy="272" r="16.5" fill="none" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="2"/>
+    <path d="M94.5 272.5l5.5 5.5 9.5-10.5" fill="none" stroke="#0B2545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Business plan (middle card) -->
+  <g transform="rotate(5 355 270)" filter="url(#hs)">
+    <rect x="220" y="110" width="270" height="320" rx="18" fill="#FFFFFF"/>
+    <rect x="244" y="134" width="38" height="38" rx="10" fill="#FDF5E1"/>
+    <path d="M253 162v-8M263 162v-14M273 162v-20" stroke="#E2A92A" stroke-width="3.2" stroke-linecap="round"/>
+    <rect x="294" y="139" width="128" height="11" rx="5.5" fill="#0B2545"/>
+    <rect x="294" y="158" width="84" height="7" rx="3.5" fill="#C3CCD9"/>
+    <rect x="244" y="190" width="222" height="142" rx="12" fill="#F4F6FA"/>
+    <path d="M260 312h190" stroke="#D3DAE5" stroke-width="1.5"/>
+    <path d="M260 280h190M260 248h190M260 216h190" stroke="#E3E8F0" stroke-width="1" stroke-dasharray="3 5"/>
+    <rect x="268" y="262" width="24" height="50" rx="5" fill="#1E4D85" fill-opacity=".45"/>
+    <rect x="304" y="240" width="24" height="72" rx="5" fill="#1E4D85" fill-opacity=".7"/>
+    <rect x="340" y="252" width="24" height="60" rx="5" fill="#133A68"/>
+    <rect x="376" y="222" width="24" height="90" rx="5" fill="#0B2545"/>
+    <rect x="412" y="200" width="24" height="112" rx="5" fill="url(#hg)"/>
+    <polyline points="280,250 316,228 352,238 388,208 424,190" fill="none" stroke="#E2A92A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="424" cy="190" r="6" fill="#FFFFFF" stroke="#E2A92A" stroke-width="3"/>
+    <rect x="244" y="352" width="196" height="8" rx="4" fill="#DDE3EC"/>
+    <rect x="244" y="370" width="168" height="8" rx="4" fill="#DDE3EC"/>
+    <rect x="244" y="388" width="182" height="8" rx="4" fill="#DDE3EC"/>
+  </g>
+
+  <!-- Checklist (front card) -->
+  <g filter="url(#hs)">
+    <rect x="292" y="368" width="246" height="128" rx="16" fill="#FFFFFF"/>
+    <circle cx="322" cy="398" r="11" fill="#E2A92A"/>
+    <path d="M317 398.5l3.6 3.6 6.4-7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="344" y="393" width="150" height="9" rx="4.5" fill="#0B2545" fill-opacity=".85"/>
+    <circle cx="322" cy="432" r="11" fill="#E2A92A"/>
+    <path d="M317 432.5l3.6 3.6 6.4-7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="344" y="427" width="128" height="9" rx="4.5" fill="#0B2545" fill-opacity=".6"/>
+    <circle cx="322" cy="466" r="10" fill="none" stroke="#E2A92A" stroke-width="2.5"/>
+    <rect x="344" y="461" width="140" height="9" rx="4.5" fill="#DDE3EC"/>
+  </g>
+
+  <!-- Floating chip -->
+  <g filter="url(#hs)">
+    <rect x="384" y="40" width="156" height="56" rx="28" fill="url(#hg)"/>
+    <circle cx="413" cy="68" r="16" fill="#0B2545"/>
+    <path d="M406 68.5l4.6 4.6 8.4-9" fill="none" stroke="#F4D588" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="438" y="58" width="84" height="8" rx="4" fill="#0B2545" fill-opacity=".85"/>
+    <rect x="438" y="72" width="56" height="6" rx="3" fill="#0B2545" fill-opacity=".45"/>
+  </g>
+
+  <!-- Floating envelope tile -->
+  <g filter="url(#hs)">
+    <rect x="8" y="402" width="70" height="70" rx="18" fill="#133A68"/>
+    <rect x="8.5" y="402.5" width="69" height="69" rx="17.5" fill="none" stroke="#E2A92A" stroke-opacity=".5"/>
+    <rect x="25" y="423" width="36" height="27" rx="4" fill="none" stroke="#F4D588" stroke-width="2.6"/>
+    <path d="M26 425l17 12 17-12" fill="none" stroke="#F4D588" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-label="Illustration of a business registration checklist on a clipboard with an identification card">
+  <defs>
+    <linearGradient id="rbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081C38"/>
+      <stop offset=".6" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#133A68"/>
+    </linearGradient>
+    <linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6DC98"/>
+      <stop offset="1" stop-color="#E2A92A"/>
+    </linearGradient>
+    <pattern id="rp" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 1 39 20 20 39 1 20Z" fill="none" stroke="#E2A92A" stroke-opacity=".09"/>
+    </pattern>
+    <filter id="rs" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#020814" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="560" height="440" fill="url(#rbg)"/>
+  <rect width="560" height="440" fill="url(#rp)"/>
+  <circle cx="90" cy="380" r="130" fill="#E2A92A" fill-opacity=".07"/>
+  <circle cx="280" cy="220" r="170" fill="none" stroke="#E2A92A" stroke-opacity=".22" stroke-dasharray="3 9"/>
+
+  <!-- clipboard -->
+  <g filter="url(#rs)">
+    <rect x="170" y="56" width="220" height="330" rx="18" fill="#1E4D85"/>
+    <rect x="186" y="80" width="188" height="290" rx="8" fill="#FFFFFF"/>
+    <rect x="232" y="42" width="96" height="36" rx="10" fill="url(#rg)"/>
+    <circle cx="280" cy="56" r="6" fill="#0B2545"/>
+    <rect x="206" y="104" width="110" height="10" rx="5" fill="#0B2545"/>
+    <rect x="206" y="122" width="70" height="7" rx="3.5" fill="#C3CCD9"/>
+    <!-- rows -->
+    <rect x="206" y="152" width="22" height="22" rx="6" fill="#E2A92A"/>
+    <path d="M211.5 163l4 4 7-7.5" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="240" y="158" width="112" height="9" rx="4.5" fill="#0B2545" fill-opacity=".8"/>
+    <rect x="206" y="196" width="22" height="22" rx="6" fill="#E2A92A"/>
+    <path d="M211.5 207l4 4 7-7.5" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="240" y="202" width="96" height="9" rx="4.5" fill="#0B2545" fill-opacity=".8"/>
+    <rect x="206" y="240" width="22" height="22" rx="6" fill="#E2A92A"/>
+    <path d="M211.5 251l4 4 7-7.5" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="240" y="246" width="104" height="9" rx="4.5" fill="#0B2545" fill-opacity=".8"/>
+    <rect x="207" y="285" width="20" height="20" rx="5" fill="none" stroke="#E2A92A" stroke-width="2.4"/>
+    <rect x="240" y="290" width="88" height="9" rx="4.5" fill="#DDE3EC"/>
+    <rect x="206" y="330" width="148" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="206" y="343" width="120" height="6" rx="3" fill="#E1E6EE"/>
+  </g>
+
+  <!-- ID card -->
+  <g filter="url(#rs)" transform="rotate(-8 120 300)">
+    <rect x="44" y="250" width="170" height="106" rx="12" fill="#FFFFFF"/>
+    <rect x="44" y="250" width="170" height="24" rx="12" fill="url(#rg)"/>
+    <rect x="44" y="262" width="170" height="12" fill="url(#rg)"/>
+    <rect x="60" y="288" width="42" height="50" rx="6" fill="#FDF5E1" stroke="#E2A92A" stroke-width="1.5"/>
+    <circle cx="81" cy="306" r="8" fill="#E2A92A"/>
+    <path d="M68 332c3-7 7.5-10 13-10s10 3 13 10" fill="#E2A92A"/>
+    <rect x="114" y="292" width="80" height="8" rx="4" fill="#0B2545"/>
+    <rect x="114" y="308" width="62" height="6" rx="3" fill="#C3CCD9"/>
+    <rect x="114" y="320" width="72" height="6" rx="3" fill="#C3CCD9"/>
+  </g>
+
+  <!-- building tile -->
+  <g filter="url(#rs)">
+    <rect x="408" y="92" width="112" height="112" rx="24" fill="#FFFFFF"/>
+    <rect x="438" y="116" width="52" height="66" rx="4" fill="none" stroke="#0B2545" stroke-width="3.2"/>
+    <path d="M450 130h8M470 130h8M450 145h8M470 145h8M450 160h8M470 160h8" stroke="#E2A92A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M458 182v-10h12v10" fill="none" stroke="#0B2545" stroke-width="3.2"/>
+  </g>
+
+  <!-- percent / tax tile -->
+  <g filter="url(#rs)">
+    <rect x="420" y="250" width="96" height="96" rx="22" fill="url(#rg)"/>
+    <path d="M450 316l36-36" stroke="#0B2545" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="453" cy="283" r="7" fill="none" stroke="#0B2545" stroke-width="3.6"/>
+    <circle cx="483" cy="313" r="7" fill="none" stroke="#0B2545" stroke-width="3.6"/>
+  </g>
+</svg>

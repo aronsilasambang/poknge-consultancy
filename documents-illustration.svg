@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-label="Illustration of a professional CV, a business letter and a promotional flyer">
+  <defs>
+    <linearGradient id="dbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081C38"/>
+      <stop offset=".6" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#133A68"/>
+    </linearGradient>
+    <linearGradient id="dg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6DC98"/>
+      <stop offset="1" stop-color="#E2A92A"/>
+    </linearGradient>
+    <pattern id="dp" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 1 39 20 20 39 1 20Z" fill="none" stroke="#E2A92A" stroke-opacity=".09"/>
+    </pattern>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#020814" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="560" height="440" fill="url(#dbg)"/>
+  <rect width="560" height="440" fill="url(#dp)"/>
+  <circle cx="460" cy="380" r="140" fill="#E2A92A" fill-opacity=".07"/>
+  <circle cx="280" cy="220" r="172" fill="none" stroke="#E2A92A" stroke-opacity=".22" stroke-dasharray="3 9"/>
+
+  <!-- letter (left, back) -->
+  <g filter="url(#ds)" transform="rotate(-9 150 230)">
+    <rect x="62" y="96" width="180" height="240" rx="12" fill="#FFFFFF"/>
+    <rect x="82" y="118" width="54" height="8" rx="4" fill="#E2A92A"/>
+    <rect x="82" y="134" width="36" height="6" rx="3" fill="#C3CCD9"/>
+    <rect x="82" y="166" width="140" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="82" y="179" width="128" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="82" y="192" width="136" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="82" y="205" width="110" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="82" y="228" width="140" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="82" y="241" width="122" height="6" rx="3" fill="#E1E6EE"/>
+    <path d="M86 296c8-13 15-13 19-4s8 8 13-1 10-6 16 2" fill="none" stroke="#1E4D85" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- flyer (right, back) -->
+  <g filter="url(#ds)" transform="rotate(9 420 220)">
+    <rect x="330" y="92" width="170" height="236" rx="12" fill="#FFFFFF"/>
+    <path d="M330 104a12 12 0 0 1 12-12h146a12 12 0 0 1 12 12v84H330z" fill="#0B2545"/>
+    <circle cx="460" cy="122" r="34" fill="url(#dg)" fill-opacity=".9"/>
+    <rect x="348" y="130" width="76" height="10" rx="5" fill="#FFFFFF"/>
+    <rect x="348" y="148" width="54" height="7" rx="3.5" fill="#ECBD4C"/>
+    <rect x="348" y="208" width="134" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="348" y="221" width="120" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="348" y="234" width="128" height="6" rx="3" fill="#E1E6EE"/>
+    <rect x="348" y="276" width="82" height="26" rx="13" fill="url(#dg)"/>
+  </g>
+
+  <!-- CV (front, centre) -->
+  <g filter="url(#ds)">
+    <rect x="186" y="64" width="190" height="300" rx="14" fill="#FFFFFF"/>
+    <rect x="186" y="64" width="62" height="300" rx="14" fill="#0B2545"/>
+    <rect x="234" y="64" width="14" height="300" fill="#0B2545"/>
+    <circle cx="217" cy="104" r="18" fill="#FDF5E1"/>
+    <circle cx="217" cy="99" r="6.5" fill="#E2A92A"/>
+    <path d="M205.5 115c2.4-5 6.4-7.6 11.5-7.6s9.1 2.6 11.5 7.6" fill="none" stroke="#E2A92A" stroke-width="2.6" stroke-linecap="round"/>
+    <rect x="200" y="140" width="34" height="5" rx="2.5" fill="#ECBD4C"/>
+    <rect x="200" y="152" width="28" height="4" rx="2" fill="#FFFFFF" fill-opacity=".45"/>
+    <rect x="200" y="162" width="32" height="4" rx="2" fill="#FFFFFF" fill-opacity=".45"/>
+    <rect x="200" y="172" width="24" height="4" rx="2" fill="#FFFFFF" fill-opacity=".45"/>
+    <rect x="200" y="200" width="34" height="5" rx="2.5" fill="#ECBD4C"/>
+    <rect x="200" y="212" width="30" height="4" rx="2" fill="#FFFFFF" fill-opacity=".45"/>
+    <rect x="200" y="222" width="26" height="4" rx="2" fill="#FFFFFF" fill-opacity=".45"/>
+    <rect x="264" y="88" width="90" height="11" rx="5.5" fill="#0B2545"/>
+    <rect x="264" y="106" width="60" height="7" rx="3.5" fill="#E2A92A"/>
+    <rect x="264" y="136" width="48" height="6" rx="3" fill="#1E4D85"/>
+    <rect x="264" y="150" width="96" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="161" width="88" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="172" width="92" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="198" width="48" height="6" rx="3" fill="#1E4D85"/>
+    <rect x="264" y="212" width="96" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="223" width="84" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="234" width="90" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="260" width="48" height="6" rx="3" fill="#1E4D85"/>
+    <rect x="264" y="274" width="92" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="285" width="78" height="5" rx="2.5" fill="#E1E6EE"/>
+    <rect x="264" y="310" width="40" height="6" rx="3" fill="#E2A92A" fill-opacity=".6"/>
+    <rect x="310" y="310" width="40" height="6" rx="3" fill="#E2A92A" fill-opacity=".35"/>
+  </g>
+
+  <!-- pen tile -->
+  <g filter="url(#ds)">
+    <rect x="232" y="350" width="96" height="62" rx="18" fill="url(#dg)"/>
+    <path d="M262 392l4-12 20-20 8 8-20 20z" fill="none" stroke="#0B2545" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M282 364l8 8" stroke="#0B2545" stroke-width="3"/>
+    <path d="M300 392h12" stroke="#0B2545" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
