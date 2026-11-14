@@ -513,6 +513,24 @@ strong { font-weight: 650; }
 .price-table tr:last-child th, .price-table tr:last-child td { border-bottom: 0; }
 .price-table th { font-weight: 500; color: var(--ink); padding-right: 16px; }
 .price-table td { text-align: right; font-weight: 700; color: var(--navy-800); white-space: nowrap; }
+.price-card--wide { grid-column: 1 / -1; }
+.small-note { margin: 14px 0 0; font-size: .88rem; color: var(--ink-soft); }
+
+/* ---------- Photos ---------- */
+.photo-frame { margin: 0; border-radius: var(--radius); overflow: hidden; background: var(--navy-800); box-shadow: 0 18px 40px rgba(11, 37, 69, .18); }
+.photo-frame img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.photo-grid figure { margin: 0; border-radius: var(--radius); overflow: hidden; background: #fff; border: 1px solid var(--line); }
+.photo-grid img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.photo-grid figcaption { padding: 12px 16px; font-size: .92rem; color: var(--ink-soft); }
+@media (max-width: 900px) { .photo-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .photo-grid { grid-template-columns: 1fr; } }
+.founder-photo { position: relative; margin: 0 auto; max-width: 440px; border-radius: var(--radius-lg, 22px); overflow: hidden; background: var(--navy-800); box-shadow: 0 24px 50px rgba(11, 37, 69, .22); border-bottom: 4px solid var(--gold-500, #E2A92A); }
+.founder-photo img { display: block; width: 100%; height: auto; }
+.founder-photo figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 48px 22px 18px; background: linear-gradient(to top, rgba(8, 28, 56, .92), rgba(8, 28, 56, 0)); color: #fff; display: grid; gap: 2px; }
+.founder-photo figcaption strong { font-family: var(--font-head); font-size: 1.25rem; font-weight: 700; }
+.founder-photo figcaption span { font-size: .88rem; letter-spacing: .08em; text-transform: uppercase; color: var(--gold-300, #F6DC98); }
+.founder-role { margin: -6px 0 18px; font-size: .9rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; color: var(--gold-text, #8a6510); }
 
 /* ---------- Registration details table ---------- */
 .table-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); margin-top: 8px; }
@@ -638,7 +656,7 @@ fieldset.form-field { border: 0; margin: 0; padding: 0; min-width: 0; }
 .footer-contact .icon { color: var(--gold-400); margin-top: 3px; width: 18px; height: 18px; }
 .footer-contact a { color: rgba(255, 255, 255, .86); text-decoration: none; overflow-wrap: anywhere; }
 .footer-contact a:hover { color: var(--gold-300); }
-.footer-bottom { border-top: 1px solid rgba(255, 255, 255, .1); padding: 26px 0 30px; display: grid; gap: 10px; font-size: .84rem; color: rgba(255, 255, 255, .58); }
+.footer-bottom { border-top: 1px solid rgba(255, 255, 255, .1); padding-block: 26px 30px; display: grid; gap: 10px; font-size: .84rem; color: rgba(255, 255, 255, .58); }
 .footer-bottom p { margin: 0; }
 .footer-bottom .footer-disclaimer { max-width: 900px; }
 @media (max-width: 640px) { .footer-bottom { padding-bottom: 96px; } }
